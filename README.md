@@ -13,9 +13,12 @@ yields final incumbents that are statistically tied with optimal.
 This work builds on a line of research that seeks to analyze and exploit
 algorithm configuration landscapes:
 
-- \[Pushak & Hoos, 2022a\] Yasha Pushak and Holger H. Hoos.
-**AutoML Loss Landscapes**
+- \[Pushak & Hoos, 2022a\] Yasha Pushak and Holger H. Hoos. 
+**AutoML Loss Landscapes** 
 Under review at *Transactions on Evolutionary Optimization and Learning (TELO)*.
+- \[Pushak, 2022\] Yasha Pushak. 
+**Algorithm Configuration Landscapes: Analysis & Exploitation**
+*PhD Thesis, The University of British Columbia.*
  - \[Pushak & Hoos, 2020\] Yasha Pushak and Holger H. Hoos.  
 **Golden Parameter Search: Exploiting Structure to Quickly Configure Parameters
 In Parallel.**  
