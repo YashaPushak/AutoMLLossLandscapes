@@ -17,6 +17,9 @@ that seeks to analyze and exploit algorithm configuration landscape structure.
 - \[Pushak & Hoos, 2022a\] Yasha Pushak and Holger H. Hoos.  
 **AutoML Loss Landscapes.**  
 Under review at *Transactions on Evolutionary Optimization and Learning (TELO)*.
+- \[Pushak & Hoos, 2022b\] Yasha Pushak and Holger H. Hoos.  
+**Experimental Procedures for Exploiting AutoML Loss Landscape Structure.**  
+Preprint.  
 - \[Pushak, 2022\] Yasha Pushak.  
 **Algorithm Configuration Landscapes: Analysis & Exploitation.**  
 *PhD Thesis, The University of British Columbia.*  
@@ -43,9 +46,9 @@ is described in the docstrings of each method.
 
 For example,
 
-   from svm_analyzer import SVMBenchmark
-   analyzer = SVMBenchmark()
-   is_unimodal = analyzer.test_reject_unimodality()
+    from svm_analyzer import SVMBenchmark
+    analyzer = SVMBenchmark()
+    is_unimodal = analyzer.test_reject_unimodality()
 
 will run run the test for uni-modality on the SVM scenario and print some
 information to the console about its progress. If successful, it should
