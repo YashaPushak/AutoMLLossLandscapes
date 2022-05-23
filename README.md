@@ -55,6 +55,19 @@ take about 10-30 seconds to run and should print:
     0 of the configurations were determined to remain unreachable.
     Therefore, we cannot reject the possibility that this benchmark has 1 mode or less with 95.0% confidence.
 
+# Data
+
+The data for the smaller AutoML Loss Landscapes is stored directly in this
+github directory. For the FCNet and Xgboost scenarios, the data needs to
+be separately downloaded, and then you can tell their corresponding
+analyzers where to find the raw data files for analysis.
+
+These can be downloaded from:
+ - https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes/fcnet_naval_propulsion_data.hdf5
+ - https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes/fcnet_parkinsons_telemonitoring_data.hdf5
+ - https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes/fcnet_protein_structure_data.hdf5
+ - https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes/fcnet_slice_localization_data.hdf5
+ - https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes/results-5-runs-7*3%5E10.csv (Xgboost)
 
 # Contact
 
