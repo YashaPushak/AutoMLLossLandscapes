@@ -44,7 +44,17 @@ For example,
    is_unimodal = analyzer.test_reject_unimodality()
 
 will run run the test for uni-modality on the SVM scenario and print some
-information to the console about its progress. 
+information to the console about its progress. If successful, it should
+take about 10-30 seconds to run and should print:
+
+    100% done making the configuration table
+    Iteration: 1; Heap size: 0; Still Unreached: 1399; Neighbours: 05; Quality: 0.23517
+    Iteration: 1000; Heap size: 136; Still Unreached: 264; Neighbours: 06; Quality: 0.32207
+    Iteration: 1400; Heap size: 0; Still Unreached: 0; Neighbours: 04; Quality: 0.49307
+    100.00% of the state space was visited during the search procedure.
+    0 of the configurations were determined to remain unreachable.
+    Therefore, we cannot reject the possibility that this benchmark has 1 mode or less with 95.0% confidence.
+
 
 # Contact
 

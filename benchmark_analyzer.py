@@ -1939,11 +1939,11 @@ class Benchmark:
         return hyperparameters, X_slices, y_slices, y_bounds_slices, y_samples
 
     def plot_1d_slices(self, fs=18):
-	"""
+        """
         Returns the names and plots (altair-viz charts) of each
         1D hyper-parameter response slice centered around the global
         optimum.
-	"""
+        """
         hyperparameters, X_slices, y_slices, y_bounds_slices, _ = self.get_1d_slices()
         charts = []
         for i, hp in enumerate(hyperparameters):
@@ -1974,11 +1974,11 @@ class Benchmark:
         return hyperparameters, charts
 
     def plot_2d_slices(self, y_title='Loss + CI', y_scale='linear', x_scale=None, fs=18):
-	"""
+        """
         Returns the names and plots (altair-viz charts) of each
         2D hyper-parameter response slice centered around the global
         optimum.
-	"""
+        """
 
         hyperparameters, X_slices, y_slices, y_bounds_slices, _ = self.get_2d_slices()
         charts = []
@@ -2083,11 +2083,11 @@ class Benchmark:
         return hyperparameters, charts
 
     def get_1d_analyzers(self, permute_objective=False):
-	"""
+        """
         Returns the names of and benchmark analyzers for each 1D
         hyper-parameter response slice centered around the global
         optimum.
-	"""
+        """
         hyperparameters, X_slices, _, y_bounds_slices, y_samples = self.get_1d_slices()
         benchmarks = []
         for X, y_bounds, y_samples, hp in zip(X_slices, y_bounds_slices, y_samples, hyperparameters):
@@ -2133,11 +2133,11 @@ class Benchmark:
         return hyperparameters, X_slices, y_slices, y_bounds_slices, y_samples
 
     def get_2d_analyzers(self, permute_objective=False):
-	"""
+        """
         Returns the names of and benchmark analyzers for each 2D
         hyper-parameter response slice centered around the global
         optimum.
-	"""
+        """
         hyperparameters, X_slices, _, y_bounds_slices, y_samples = self.get_2d_slices()
         benchmarks = []
         for X, y_bounds, y_samples, (hp_1, hp_2) in zip(X_slices, y_bounds_slices, y_samples, hyperparameters):
@@ -2154,7 +2154,7 @@ class Benchmark:
         return hyperparameters, benchmarks
 
     def interesting(self):
-	"""
+        """
         Determines if the overall variance in the response slice is 
         large enough to be considered ``interesting'', given the size
         of the confidence intervals. Originally defined in Pushak &
