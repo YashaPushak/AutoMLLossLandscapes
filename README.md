@@ -10,14 +10,15 @@ and they have relativey simple hyper-parameter interactions. That is, optimzing
 each hyper-parameter independently a single time, and in a random order, often
 yields final incumbents that are statistically tied with optimal.
 
-This work builds on a line of research that seeks to analyze and exploit
-algorithm configuration landscapes:
+This work builds on a line of research 
+(see https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes) 
+that seeks to analyze and exploit algorithm configuration landscape structure.
 
 - \[Pushak & Hoos, 2022a\] Yasha Pushak and Holger H. Hoos.  
-**AutoML Loss Landscapes**  
+**AutoML Loss Landscapes.**  
 Under review at *Transactions on Evolutionary Optimization and Learning (TELO)*.
 - \[Pushak, 2022\] Yasha Pushak.  
-**Algorithm Configuration Landscapes: Analysis & Exploitation**  
+**Algorithm Configuration Landscapes: Analysis & Exploitation.**  
 *PhD Thesis, The University of British Columbia.*  
  - \[Pushak & Hoos, 2020\] Yasha Pushak and Holger H. Hoos.  
 **Golden Parameter Search: Exploiting Structure to Quickly Configure Parameters
