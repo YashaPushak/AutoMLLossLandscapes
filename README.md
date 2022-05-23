@@ -11,7 +11,7 @@ each hyper-parameter independently a single time, and in a random order, often
 yields final incumbents that are statistically tied with optimal.
 
 This work builds on a line of research 
-(see https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes) 
+(see https://www.cs.ubc.ca/labs/algorithms/Projects/ACLandscapes/index.html) 
 that seeks to analyze and exploit algorithm configuration landscape structure.
 
 - \[Pushak & Hoos, 2022a\] Yasha Pushak and Holger H. Hoos.  
